@@ -1,0 +1,15 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="java.util.Date"%>
+<%@page import="java.util.Calendar"%>
+<%@ page pageEncoding="UTF-8" %>
+<%!
+    int year2 = Calendar.getInstance().get(Calendar.YEAR);
+    Calendar cal2 = Calendar.getInstance();
+    Date today2 = cal2.getTime();
+%>
+<footer>
+    Copyright &copy; <%= year2%> all rights reserved <br>
+    Contact Us <Br>
+    Todays date is <%= today2%>
+
+</footer>
